@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Test5</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header  -->
+
+      <div class="header">
+        <div class="header__part1">
+          <ion-icon
+            class="header__icon Side-icon"
+            name="options-outline"
+          ></ion-icon>
+          <p class="header__text">Portfolio</p>
+          <form action="#" class="search">
+            <button class="search__button">
+              <ion-icon class="search__icon" name="search-outline"></ion-icon>
+            </button>
+            <input type="text" class="search__input" placeholder="Search" />
+          </form>
+        </div>
+        <div class="header__part2">
+          <ion-icon
+            class="header__icon header__icon-add"
+            name="add-circle"
+          ></ion-icon>
+          <ion-icon
+            class="header__icon"
+            name="notifications-outline"
+          ></ion-icon>
+          <div class="header__notification-counting"></div>
+          <div class="header__divider"></div>
+          <div class="header__profile">
+            <div class="header__profile-photo">
+              <img src="./img/2.jpg" alt="Men's Face" />
+            </div>
+            <p class="header__profile-text">Hira R</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar -->
+
+      <div class="sidebar">
+        <div class="sidebar__button">
+          <ion-icon class="sidebar__icon" name="home-outline"></ion-icon>
+        </div>
+        <div class="sidebar__button">
+          <ion-icon
+            class="sidebar__icon"
+            name="person-circle-outline"
+          ></ion-icon>
+        </div>
+        <div class="sidebar__button">
+          <ion-icon class="sidebar__icon" name="chatbox-outline"></ion-icon>
+        </div>
+        <div class="sidebar__button">
+          <ion-icon class="sidebar__icon" name="calendar-outline"></ion-icon>
+        </div>
+        <div class="sidebar__button">
+          <ion-icon class="sidebar__icon" name="time-outline"></ion-icon>
+        </div>
+        <div class="sidebar__button">
+          <ion-icon class="sidebar__icon" name="settings-outline"></ion-icon>
+        </div>
+      </div>
+
+      <!-- Projects -->
+
+      <div class="projects">
+        <div class="projects__heading">
+          <p>Projects</p>
+          <p>July,<span>2020</span></p>
+        </div>
+        <div class="projects__information">
+          <div class="projects__data">
+            <div class="projects__data-info">
+              <p>45</p>
+              <p>In Progress</p>
+            </div>
+            <div>
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <div class="projects__data-info">
+              <p>12</p>
+              <p>Upcoming</p>
+            </div>
+            <div class="dot-2">
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <div class="projects__data-info">
+              <p>10</p>
+              <p>In Progress</p>
+            </div>
+            <div class="dot-3">
+              <ion-icon name="ellipse-outline"></ion-icon>
+            </div>
+            <div class="projects__data-info">
+              <p>67</p>
+              <p>Total Project</p>
+            </div>
+          </div>
+          <div class="projects__information-logo">
+            <ion-icon name="menu-outline"></ion-icon>
+            <ion-icon name="grid-outline"></ion-icon>
+          </div>
+        </div>
+
+        <div class="projects__card project-scroll">
+          <div class="projects__infocard">
+            <div class="projects__infocard_heading">
+              <p>July 2, 2020</p>
+              <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <div class="projects__infocard_description">
+              <p>Web Designing</p>
+              <p>Prototyping</p>
+            </div>
+            <div class="projects__infocard_progress">
+              <p>Progress</p>
+              <progress
+                class="projects__infocard_progress-bar"
+                value="90"
+                max="100"
+              ></progress>
+
+              <p class="projects__infocard_progress-percentage">90%</p>
+            </div>
+            <div class="projects__infocard_footer frist-border">
+              <div class="projects__infocard_footer-image">
+                <div>
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/1.jpg"
+                    alt="Men's Face"
+                  />
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/2.jpg"
+                    alt="Men's Face"
+                  />
+                </div>
+
+                <div>
+                  <ion-icon
+                    class="projects__infocard_footer-icon footer-icon"
+                    name="add-circle"
+                  ></ion-icon>
+                </div>
+              </div>
+              <button
+                class="projects__infocard_footer-button footer-button-text"
+              >
+                2 days left
+              </button>
+            </div>
+            <div class="projects__infocard_border1 border-hover"></div>
+            <div class="projects__infocard_border2 border-hover"></div>
+          </div>
+
+          <div class="projects__infocard">
+            <div class="projects__infocard_heading">
+              <p>July 5, 2020</p>
+              <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <div class="projects__infocard_description">
+              <p>Mobile App</p>
+              <p>Shopping</p>
+            </div>
+            <div class="projects__infocard_progress">
+              <p>Progress</p>
+              <progress
+                class="projects__infocard_progress-bar"
+                value="30"
+                max="100"
+              ></progress>
+              <p class="projects__infocard_progress-percentage">30%</p>
+            </div>
+            <div class="projects__infocard_footer">
+              <div class="projects__infocard_footer-image">
+                <div>
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/3.jpg"
+                    alt="Men's Face"
+                  />
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/4.jpg"
+                    alt="Men's Face"
+                  />
+                </div>
+
+                <div>
+                  <ion-icon
+                    class="projects__infocard_footer-icon footer-icon"
+                    name="add-circle"
+                  ></ion-icon>
+                </div>
+              </div>
+              <button
+                class="projects__infocard_footer-button footer-button-text"
+              >
+                3 week left
+              </button>
+            </div>
+            <div class="projects__infocard_border1 border-hover"></div>
+            <div class="projects__infocard_border2 border-hover"></div>
+          </div>
+
+          <div class="projects__infocard">
+            <div class="projects__infocard_heading">
+              <p>July 10, 2020</p>
+              <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <div class="projects__infocard_description">
+              <p>Dashboard</p>
+              <p>Medical</p>
+            </div>
+            <div class="projects__infocard_progress">
+              <p>Progress</p>
+              <progress
+                class="projects__infocard_progress-bar"
+                value="50"
+                max="100"
+              ></progress>
+              <p class="projects__infocard_progress-percentage">50%</p>
+            </div>
+            <div class="projects__infocard_footer">
+              <div class="projects__infocard_footer-image">
+                <div>
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/5.jpg"
+                    alt="Men's Face"
+                  />
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/6.jpg"
+                    alt="Men's Face"
+                  />
+                </div>
+
+                <div>
+                  <ion-icon
+                    class="projects__infocard_footer-icon footer-icon"
+                    name="add-circle"
+                  ></ion-icon>
+                </div>
+              </div>
+              <button
+                class="projects__infocard_footer-button footer-button-text"
+              >
+                2 week left
+              </button>
+            </div>
+            <div class="projects__infocard_border1 border-hover"></div>
+            <div class="projects__infocard_border2 border-hover"></div>
+          </div>
+
+          <div class="projects__infocard">
+            <div class="projects__infocard_heading">
+              <p>July 15, 2020</p>
+              <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <div class="projects__infocard_description">
+              <p>Web Designing</p>
+              <p>Wireframing</p>
+            </div>
+            <div class="projects__infocard_progress">
+              <p>Progress</p>
+              <progress
+                class="projects__infocard_progress-bar"
+                value="20"
+                max="100"
+              ></progress>
+              <p class="projects__infocard_progress-percentage">20%</p>
+            </div>
+            <div class="projects__infocard_footer">
+              <div class="projects__infocard_footer-image">
+                <div>
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/1.jpg"
+                    alt="Men's Face"
+                  />
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/3.jpg"
+                    alt="Men's Face"
+                  />
+                </div>
+
+                <div>
+                  <ion-icon
+                    class="projects__infocard_footer-icon footer-icon"
+                    name="add-circle"
+                  ></ion-icon>
+                </div>
+              </div>
+              <button
+                class="projects__infocard_footer-button footer-button-text"
+              >
+                3 week left
+              </button>
+            </div>
+            <div class="projects__infocard_border1 border-hover"></div>
+            <div class="projects__infocard_border2 border-hover"></div>
+          </div>
+
+          <div class="projects__infocard">
+            <div class="projects__infocard_heading">
+              <p>July 20, 2020</p>
+              <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <div class="projects__infocard_description">
+              <p>Mobile App</p>
+              <p>Prototyping</p>
+            </div>
+            <div class="projects__infocard_progress">
+              <p>Progress</p>
+              <progress
+                class="projects__infocard_progress-bar"
+                value="90"
+                max="100"
+              ></progress>
+              <p class="projects__infocard_progress-percentage">90%</p>
+            </div>
+            <div class="projects__infocard_footer">
+              <div class="projects__infocard_footer-image">
+                <div>
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/2.jpg"
+                    alt="Men's Face"
+                  />
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/5.jpg"
+                    alt="Men's Face"
+                  />
+                </div>
+
+                <div>
+                  <ion-icon
+                    class="projects__infocard_footer-icon footer-icon"
+                    name="add-circle"
+                  ></ion-icon>
+                </div>
+              </div>
+              <button
+                class="projects__infocard_footer-button footer-button-text"
+              >
+                2 days left
+              </button>
+            </div>
+            <div class="projects__infocard_border1 border-hover"></div>
+            <div class="projects__infocard_border2 border-hover"></div>
+          </div>
+
+          <div class="projects__infocard">
+            <div class="projects__infocard_heading">
+              <p>July 25, 2020</p>
+              <ion-icon name="ellipsis-vertical"></ion-icon>
+            </div>
+            <div class="projects__infocard_description">
+              <p>Mobile App</p>
+              <p>Prototyping</p>
+            </div>
+            <div class="projects__infocard_progress">
+              <p>Progress</p>
+              <progress
+                class="projects__infocard_progress-bar"
+                value="70"
+                max="100"
+              ></progress>
+              <p class="projects__infocard_progress-percentage">70%</p>
+            </div>
+            <div class="projects__infocard_footer">
+              <div class="projects__infocard_footer-image">
+                <div>
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/4.jpg"
+                    alt="Men's Face"
+                  />
+                  <img
+                    class="projects__infocard_footer-photo"
+                    src="./img/6.jpg"
+                    alt="Men's Face"
+                  />
+                </div>
+
+                <div>
+                  <ion-icon
+                    class="projects__infocard_footer-icon footer-icon"
+                    name="add-circle"
+                  ></ion-icon>
+                </div>
+              </div>
+              <button
+                class="projects__infocard_footer-button footer-button-text"
+              >
+                2 week left
+              </button>
+            </div>
+            <div class="projects__infocard_border1 border-hover"></div>
+            <div class="projects__infocard_border2 border-hover"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chats  -->
+
+      <div class="chats">
+        <div class="chats__heading">
+          <div class="chats__heading-text">
+            <p>Client Messages</p>
+          </div>
+          <div class="chats__heading-icon">
+            <ion-icon name="search-outline"></ion-icon>
+            <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+          </div>
+        </div>
+        <div class="chats__divider"></div>
+
+        <div class="chat-scroll">
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/1.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>David</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                I got your first assignment. It was quite good 👌 You can start
+                work on next assignment!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/2.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Stepanie</p>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                Hey tell me about progress of project? Waiting for your
+                response!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/3.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Willion</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                I got your first assignment. It was quite good 👌 You can start
+                work on next assignment!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/4.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Alona</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                Hey tell me about progress of project? Waiting for your
+                response!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/5.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Hira</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                I got your first assignment. It was quite good 👌 You can start
+                work on next assignment!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/6.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Fatima</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                Hey tell me about progress of project? Waiting for your
+                response!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/2.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Stepanie</p>
+                <ion-icon class="star-icon" name="star"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                Hey tell me about progress of project? Waiting for your
+                response!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/3.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Willion</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                I got your first assignment. It was quite good 👌 You can start
+                work on next assignment!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/4.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Alona</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                Hey tell me about progress of project? Waiting for your
+                response!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/5.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Hira</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                I got your first assignment. It was quite good 👌 You can start
+                work on next assignment!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+
+          <div class="chats__divider"></div>
+
+          <div class="chats__info chat-effect">
+            <div class="chats__person_photo">
+              <img
+                class="chats__person_photo-image"
+                src="./img/6.jpg"
+                alt="Men's Face"
+              />
+            </div>
+            <div class="chats__person_data">
+              <div class="chats__person_name">
+                <p>Fatima</p>
+                <ion-icon class="star-icon" name="star-outline"></ion-icon>
+              </div>
+              <div class="chats__person_info">
+                Hey tell me about progress of project? Waiting for your
+                response!
+              </div>
+              <div class="chats__person_date">21 July</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

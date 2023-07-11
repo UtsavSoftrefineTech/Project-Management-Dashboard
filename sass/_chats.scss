@@ -1,0 +1,106 @@
+.chats {
+  grid-row: main-start / main-end;
+  grid-column: chats-start / chats-end;
+
+  display: flex;
+  flex-direction: column;
+  // gap: 2rem;
+
+  &__heading {
+    padding: 4.3rem 3rem 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+    &-text {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    &-icon {
+      font-size: 2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__divider {
+    height: 0.1rem;
+    width: 100%;
+    background-color: gray;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+
+    gap: 2rem;
+    padding: 2rem 3rem;
+  }
+
+  &__person {
+    &_photo img {
+      height: 5rem;
+      width: 5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    &_data {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0.6rem;
+    }
+
+    &_name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1.8rem;
+      font-weight: 700;
+
+      .star-icon:hover {
+        cursor: pointer;
+      }
+    }
+
+    &_info {
+      font-size: 1.3rem;
+      line-height: 1.6rem;
+      font-weight: 500;
+    }
+    &_date {
+      font-size: 1.2rem;
+      font-weight: 550;
+      align-self: flex-end;
+      color: #555454b4;
+    }
+  }
+
+  @media only screen and (max-width: 700px) {
+    grid-row: chat-start / chat-end;
+    grid-column: 1 / -1;
+  }
+}
+
+.chat-effect:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.chat-scroll {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.chat-scroll::-webkit-scrollbar {
+  display: none;
+}

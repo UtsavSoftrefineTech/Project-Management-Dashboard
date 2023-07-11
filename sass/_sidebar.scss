@@ -1,0 +1,49 @@
+.sidebar {
+  grid-row: main-start / main-end;
+  grid-column: sidebar-start / sidebar-end;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3rem;
+  gap: 0.5rem;
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    color: gray;
+
+    &:hover {
+      color: white;
+      border-radius: 50%;
+      cursor: pointer;
+      background-color: black;
+    }
+
+    &:first-child {
+      color: white;
+      border-radius: 50%;
+      cursor: pointer;
+      background-color: black;
+    }
+  }
+
+  &__icon {
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 700px) {
+    grid-row: sidebar-start / sidebar-end;
+    grid-column: 1 / -1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 0;
+    gap: 0;
+  }
+}
