@@ -1,4 +1,3 @@
-
 # Dashboard with Responsive Layout using SASS
 
 This repository contains a dashboard built using the powerful CSS preprocessor SASS, along with a responsive layout. The dashboard provides an intuitive interface for managing and visualizing data.
@@ -17,7 +16,6 @@ This repository contains a dashboard built using the powerful CSS preprocessor S
 
 **Easy Customization:** With SASS, you can customize the look and feel of the dashboard by simply modifying variables and mixins. This allows for easy theming and branding of the application.
 
-
 ## Getting Started
 
 To get started with the dashboard, follow these steps:
@@ -25,10 +23,12 @@ To get started with the dashboard, follow these steps:
 1. Clone the repository:
 
 ```shell
-git clone https://github.com/UtsavSoftrefineTech/Third_Dashboard-Layout.git 
+git clone https://github.com/UtsavSoftrefineTech/Third_Dashboard-Layout.git
 
 ```
+
 2. Install the necessary dependencies:
+
 ```shell
 cd .\Third_Dashboard-Layout\
 npm install
@@ -38,8 +38,9 @@ npm install
 3. Build the SASS stylesheets:
 
 ```shell
-npm run build:css   
+npm run build:css
 ```
+
 4. Open the dashboard in a web browser:
 
 ```shell
@@ -52,10 +53,9 @@ npm run start
 
 Contributions are welcome! If you have any ideas, improvements, or bug fixes, please open an issue or submit a pull request. Make sure to follow the project's coding style and guidelines.
 
-
 ## My Third Dashboard Demo Website
 
-#### Demo Website :-  [Utsav Technical Hub](https://third-dashboard.netlify.app/)
+#### Demo Website :- [Utsav Technical Hub](https://projects-management-dashboard.netlify.app/)
 
 Remember to experiment with these SASS properties and adjust them to suit your specific layout requirements. By mastering flexbox, CSS Grid, and positioning, you'll have the necessary tools to create stunning and responsive layouts for your web projects.
 
